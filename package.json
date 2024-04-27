@@ -1,6 +1,6 @@
 {
   "name": "react-speech-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package is used in react. For dictation of various text. It works with the help of the browser API.",
   "main": "index.js",
   "scripts": {
