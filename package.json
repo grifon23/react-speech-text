@@ -11,6 +11,10 @@
   ],
   "author": "Eduard Makarov",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grifon23/react-speech-text"
+  },
   "dependencies": {
     "@types/dom-speech-recognition": "^0.0.4",
     "react": "^18.3.1"

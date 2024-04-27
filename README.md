@@ -2,6 +2,12 @@
 
 This package utilizes the browser API for text dictation. The `useSpeechText` hook provides a convenient interface for integrating speech recognition functionality into your React application.
 
+### Installation
+
+```javascript
+npm i grifon23/react-speech-text --dev
+```
+
 ### Usage
 
 To use the `useSpeechText` hook, import it as follows:

@@ -15,8 +15,6 @@ export const useSpeechRecord = () => {
     if (!recognition) return;
 
     recognition.onresult = (event: SpeechRecognitionEvent) => {
-      // eslint-disable-next-line no-console
-      console.log("speech event", event);
       setText(event.results[0][0].transcript);
       recognition.stop();
       setListening(false);
