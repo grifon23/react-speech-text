@@ -1,0 +1,22 @@
+{
+  "name": "grifon23/react-speech-text",
+  "version": "1.0.0",
+  "description": "This package is used in react. For dictation of various text. It works with the help of the browser API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "makarov-speech-text"
+  ],
+  "author": "Eduard Makarov",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dom-speech-recognition": "^0.0.4",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "typescript": "^5.4.5"
+  }
+}
