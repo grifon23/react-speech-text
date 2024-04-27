@@ -5,7 +5,7 @@ This package utilizes the browser API for text dictation. The `useSpeechText` ho
 ### Installation
 
 ```javascript
-npm i grifon23/react-speech-text --dev
+npm i react-speech-text --dev
 ```
 
 ### Usage
@@ -13,7 +13,7 @@ npm i grifon23/react-speech-text --dev
 To use the `useSpeechText` hook, import it as follows:
 
 ```javascript
-import { useSpeechText } from "your-package-name";
+import { useSpeechText } from "react-speech-text";
 
 const {
   text, // string - text content created from your speech
@@ -38,7 +38,7 @@ Here's a basic example demonstrating how to use the useSpeechText hook:
 
 ```javascript
 import React from "react";
-import { useSpeechText } from "your-package-name";
+import { useSpeechText } from "react-speech-text";
 
 const SpeechRecognitionComponent = () => {
   const {
